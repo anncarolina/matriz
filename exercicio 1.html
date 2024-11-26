@@ -1,0 +1,14 @@
+<script>
+    let A = [];
+    let B = [];
+    
+    for (let i = 0; i < 10; i++) {
+      A[i] = parseFloat(prompt(`Digite o ${i + 1}º valor para a matriz A:`));
+      
+      B[i] = (i + 1) % 3 === 0 ? A[i] * 1.10 : A[i];
+    }
+    
+    alert(`Matriz A: ${A}\nMatriz B: ${B}`);
+  </script>
+  
+   

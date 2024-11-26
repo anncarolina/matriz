@@ -1,0 +1,15 @@
+<script>
+    let A = [];
+    let somaImpares = 0;
+  
+    for (let i = 0; i < 10; i++) {
+      A[i] = parseInt(prompt(`Digite o ${i + 1}º valor para a matriz A:`));
+      
+      if (A[i] % 2 !== 0) {
+        somaImpares += A[i]; 
+      }
+    }
+  
+    alert(`A soma dos elementos ímpares da matriz A é: ${somaImpares}`);
+  </script>
+  
